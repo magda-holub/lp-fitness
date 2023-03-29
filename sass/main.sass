@@ -1,0 +1,501 @@
+@import ../sass/partials/mixins
+@import ../sass/partials/colors
+@import ../sass/partials/type
+@import ../sass/partials/reset
+@import ../sass/partials/switcher
+@import ../sass/partials/swiper
+@import ../sass/partials/carousel
+
+#landingpage
+    @include roboto
+    color: $grey6
+
+    .lp
+        &Header
+            position: relative
+
+            &--caption
+                width: 50%
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                left: 0
+                padding: 65px
+
+        &Perex
+            @include container(64, 165, 16, 165)
+            @include flexVert
+            align-items: center
+            gap: 32px
+            text-align: center
+
+            &--logo .icon
+                width: 160px
+                height: 60px
+                transition: transform 300ms ease-in-out
+
+                &:hover
+                    transform: scale(1.05)
+
+        &Groups
+            @include container(48, 65, 48, 65)
+            background-color: $grey0
+            text-align: center
+            display: grid
+            grid-template-columns: 240px 1fr 1fr 1fr
+            grid-template-rows: auto auto auto auto
+            grid-column-gap: 24px
+            grid-row-gap: 24px
+            align-items: stretch
+
+            &--unit
+                @include flexVert
+                padding: 32px
+                align-items: center
+                gap: 16px
+                transition: all 300ms ease-in-out
+                cursor: pointer
+
+                &:hover
+                    background: $white
+                    border-radius: 4px
+                    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
+
+            &--text
+                color: $grey6
+
+            &--icon
+                width: 64px
+                height: 64px
+
+            &--headline
+                grid-column: 1 / 5
+                color: $greyMid
+
+            &--subheadline
+                align-self: center
+                color: $greyMid
+
+            &--title
+                color: $greyMid
+
+            .lpButton
+                display: none
+
+        &Desc
+            @include container(64, 65, 64, 65)
+            scroll-margin: 60px
+
+            &--headline
+                margin-bottom: 48px
+
+            h3.lpHdl__3
+                color: $green
+                font-size: 20px
+
+            &--container
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr
+                grid-column-gap: 24px
+                grid-row-gap: 24px
+
+            &--unit
+                border-radius: 4px
+                box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
+                cursor: pointer
+                text-decoration: none
+                transition: box-shadow 300ms ease-in-out
+
+                &--header
+                    position: relative
+
+                &--caption
+                    @include container(48, 32, 40, 32)
+                    @include flexVert
+                    gap: 24px
+
+                &:hover
+                    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18)
+
+            &--text
+                color: $grey6
+
+            &--bgr
+                border-radius: 4px 4px 0 0
+                width: 100%
+
+            &--button
+                background-color: $green
+                height: 64px
+                width: 64px
+                border-radius: 50%
+                position: absolute
+                bottom: -32px
+                right: 16px
+                transition: background-color 300ms ease-in-out
+
+                &:hover
+                    background-color: $greenSport
+
+                &--icon
+                    height: 22px
+                    width: 17px
+                    transform: translate(25px, 21px)
+                    fill: $white
+
+            &--stats
+                &--row
+                    @include flexOr
+                    gap: 8px
+
+                    &:last-of-type .lpDesc--stats--text
+                        padding-top: 2px
+                        
+                &--icon
+                    height: 20px
+                    width: 20px
+                    flex-shrink: 0
+
+                &--text
+                    color: $grey5
+
+        &Nutrition
+            @include container(64, 65, 64, 65)
+            background-color: $grey0
+
+            &--headline
+                margin-bottom: 32px
+                color: $grey6
+
+            &--caption
+                margin-bottom: 64px
+                text-align: center
+                padding: 0 100px 
+                
+                p:first-of-type
+                    margin-bottom: 32px
+
+            &--player
+                background-color: $white
+                border-radius: 4px
+                box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
+                @include container(40, 40, 40, 40)
+                @include flexOr
+                justify-content: space-between
+                gap: 48px
+                margin-bottom: 48px
+
+            &--video
+                width: 60%
+
+                div
+                    position: relative
+                    padding-top: 56.25%
+                    width: 100%
+                
+                iframe
+                    border-radius: 4px
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    display: block
+                    width: 100%
+                    height: 100%
+
+            &--nav
+                @include flexVert
+                justify-content: space-between
+
+                &--row
+                    @include flexOr
+                    gap: 32px
+                    cursor: pointer
+                    transition: all 300ms ease-in-out
+
+                    &:hover .lpNutrition--nav--title
+                        font-weight: 700
+
+                    &.active
+                        color: $green
+
+                        .lpNutrition--nav
+                            &--icon
+                                fill: $green
+
+                            &--title
+                                font-weight: 700
+
+                &--icon
+                    // display: none
+                    fill: $white
+                    width: 8px
+                    height: 10px
+                    margin-top: 5px
+                    flex-shrink: 0
+                    transition: fill 300ms ease-in-out
+
+                &--title
+                    width: 320px
+                    transition: all 300ms ease-in-out
+                
+        &Taping
+            @include container(64, 65, 64, 65)
+            @include flexVert
+            background: $grey0
+            align-items: center
+            gap: 32px
+            text-align: center
+
+            &--headline
+                color: $grey6
+
+        &Button 
+            display: block
+            border-radius: 4px
+            background-color: $green
+            color: white
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
+            text-align: center
+            text-decoration: none
+            font-size: 14px
+            font-weight: 500
+            border: none
+            padding: 12px
+            margin: auto
+            width: 160px
+            transition: background-color 300ms ease-in-out
+            cursor: pointer
+
+            &:hover
+                background-color: $greenSport
+            
+.layout-0 #landingpage
+    .lp
+        &Groups
+            grid-template-columns: 1fr 1fr 1fr
+            grid-template-rows: auto 64px auto 64px auto 64px auto
+
+            &--headline, &--subheadline
+                grid-column: 1 / 4
+
+            &--unit
+                padding: 24px
+
+        &Desc
+            &--unit
+                &--caption
+                    @include container(48, 24, 40, 24)
+
+            h3.lpHdl__3
+                @include type(18, 1.25, 500)
+                height: 40px
+
+            &--stats
+                p.lpText__S
+                    @include type(13, 1.5, 400)
+                    
+        &Nutrition
+            &--player
+                gap: 32px
+
+            &--nav
+                &--row
+                    gap: 24px
+
+                &--title
+                    width: 290px
+ 
+@media only screen and (max-width: 1035px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        .lp
+            &Groups
+                grid-template-columns: 1fr 1fr 1fr
+                grid-template-rows: auto 64px auto 64px auto 64px auto
+
+                &--headline, &--subheadline
+                    grid-column: 1 / 4
+
+                &--unit
+                    padding: 24px
+
+            &Desc
+                &--unit
+                    &--caption
+                        @include container(48, 24, 40, 24)
+
+                h3.lpHdl__3
+                    @include type(18, 1.25, 500)
+                    height: 40px
+
+                &--stats
+                    p.lpText__S
+                        @include type(13, 1.5, 400)
+                        
+            &Nutrition
+                &--player
+                    gap: 32px
+
+                &--nav
+                    &--row
+                        gap: 24px
+
+                    &--title
+                        width: 290px
+
+@media only screen and (max-width: 950px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        .lp
+            &Header
+                &--caption
+                    width: 65%
+                    padding: 30px
+
+            &Groups
+                grid-template-columns: 1fr 1fr
+                grid-template-rows: auto auto auto auto auto auto
+
+                &--headline
+                    grid-column: 1 / 3
+
+                &--subheadline
+                    grid-column: 1 / 1
+
+                &--unit
+                    padding: 32px
+
+                    &--unit
+                        background: unset
+                        box-shadow: unset
+
+            &Desc
+                &--container
+                    grid-template-columns: 1fr 1fr
+                    grid-template-rows: 1fr 1fr 1fr
+
+                &--unit
+                    &--caption
+                        @include container(40, 40, 40, 40)
+
+            &Nutrition
+                &--player
+                    flex-direction: column
+
+                &--video
+                    width: unset
+                    margin-bottom: 32px
+
+                &--nav
+                    align-items: stretch
+                    gap: 32px
+
+                    &--title
+                        width: 100%
+
+                    &--time
+                        padding-right: 32px
+
+@media only screen and (max-width: 670px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        .lp
+            &Header
+                &--caption
+                    transform: unset
+                    top: 10%
+                    text-align: center
+                    width: 100%
+                    padding: 65px
+            &Perex
+                @include container(64, 65, 16, 65)
+                
+            &Groups
+                @include flexVert
+                gap: unset
+
+                &--subheadline
+                    margin: 48px 0 32px 0
+
+                &--unit:hover
+                    background: unset
+                    box-shadow: unset
+
+                .lpButton
+                    display: block
+
+            &Desc
+                &--container
+                    @include flexVert
+
+            &Nutrition
+                &--caption
+                    padding: unset
+
+@media only screen and (max-width: 520px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        .lp
+            &Header
+                &--caption
+                    top: 5%
+
+            &Perex
+                @include container(48, 30, 16, 30)
+                
+            &Groups, &Desc, &Nutrition, &Taping
+                @include container(48, 30, 48, 30)
+
+            &Desc
+                &--unit
+                    &--caption
+                        @include container(40, 24, 24, 24)
+                        
+                              
+            &Nutrition
+                &--caption
+                    margin-bottom: 48px
+
+                &--nav
+                    &--sequence
+                        display: none
+
+@media only screen and (max-width: 440px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        .lp
+            &Header
+                &--caption
+                    top: 30%
+                    transform: translateY(-55%)
+                    padding: 30px
+
+@media only screen and (max-width: 400px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        .lp
+            &Groups
+                &--unit
+                    padding-left: 0
+                    padding-right: 0
+
+            &Nutrition
+                &--player
+                    background-color: unset
+                    box-shadow: unset
+                    padding: 0
+
+                &--video
+                    margin-bottom: 16px
+
+                &--nav
+                    gap: 24px
+
+                    &--icon
+                        fill: $grey0
+
+                    &--time
+                        padding: 0
+                    

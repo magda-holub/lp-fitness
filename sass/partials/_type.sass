@@ -1,0 +1,77 @@
+#landingpage
+    h1.lpHdl__1
+        @include type(40, 1.25, 700)
+        @include roboto
+        color: $white
+        margin-bottom: 48px
+
+    h2.lpHdl__2
+        @include type(26, 1.25, 700)
+        @include roboto
+        text-align: center
+        color: $green
+
+    h3.lpHdl__3
+        @include type(22, 1.25, 500)
+        @include roboto
+
+    h4.lpHdl__4
+        @include type(18, 1.25, 500)
+        @include roboto
+
+    p.lpText__L
+        @include type(20, 1.5, 400)
+        color: $white
+
+    p.lpText__M
+        @include type(16, 1.5, 400)
+
+    p.lpText__S,  li.lpText__S
+        @include type(14, 1.5, 400)
+
+.layout-0 #landingpage
+    h1.lpHdl__1
+        @include type(36, 1.25, 700)
+        margin-bottom: 24px
+
+    p.lpText__L
+        @include type(18, 1.5, 400)
+
+
+@media only screen and (max-width: 1035px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        h1.lpHdl__1
+            @include type(30, 1.25, 700)
+            margin-bottom: 24px
+
+        p.lpText__L
+            @include type(16, 1.5, 400)
+
+@media only screen and (max-width: 520px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        h2.lpHdl__2
+            @include type(24, 1.25, 700)
+
+        h3.lpHdl__3
+            @include type(20, 1.25, 500)
+
+        h4.lpHdl__4
+            @include type(16, 1.5, 500)
+
+        p.lpText__M
+            @include type(14, 1.5, 400)
+
+        p.lpText__S, li.lpText__S
+            @include type(13, 1.5, 400)
+
+@media only screen and (max-width: 350px)
+    .mobile #landingpage,
+    .mobileapp #landingpage
+        h1.lpHdl__1
+            @include type(28, 1.25, 700)
+            margin-bottom: 24px
+
+        p.lpText__L
+            @include type(14, 1.5, 400)
