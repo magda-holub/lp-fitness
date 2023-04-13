@@ -1,6 +1,6 @@
 function changeSrc() {
-	var videoHandles = Array.from(document.querySelectorAll('.lpNutrition--nav--row')),
-    	videoFrame = document.getElementById('lpNutrition--iframe');
+	var videoHandles = Array.from(document.querySelectorAll('.lpNutrition__nav__row')),
+    	videoFrame = document.getElementById('lpNutrition__iframe');
 
     videoHandles.forEach(function(handle) {
     
@@ -17,15 +17,15 @@ function changeSrc() {
 }; changeSrc();
 
 function filtervideos() {
-	var handles = Array.from(document.getElementsByClassName('lpGroups--unit')),
-		videoCards = Array.from(document.getElementsByClassName('lpDesc--unit')),
-		headline = document.getElementById('lpDesc--headline');
+	var handles = Array.from(document.getElementsByClassName('lpGroups__unit')),
+		videoCards = Array.from(document.getElementsByClassName('lpDesc__unit')),
+		headline = document.getElementById('lpDesc__headline');
 		
 	handles.forEach(function(handle) {
 		var handleKeyword = handle.getAttribute('data-keywords');
 
 		handle.addEventListener('click', function() {
-			var newHeadline = handle.querySelector('.lpGroups--title').getAttribute('data-textcontent');
+			var newHeadline = handle.querySelector('.lpGroups__title').getAttribute('data-textcontent');
 
 			headline.textContent = newHeadline;
 
