@@ -14,7 +14,7 @@
         &Header
             position: relative
 
-            &--caption
+            &__caption
                 width: 50%
                 position: absolute
                 top: 50%
@@ -29,7 +29,7 @@
             gap: 32px
             text-align: center
 
-            &--logo .icon
+            &__logo .icon
                 width: 160px
                 height: 60px
                 transition: transform 300ms ease-in-out
@@ -48,7 +48,7 @@
             grid-row-gap: 24px
             align-items: stretch
 
-            &--unit
+            &__unit
                 @include flexVert
                 padding: 32px
                 align-items: center
@@ -61,22 +61,22 @@
                     border-radius: 4px
                     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
 
-            &--text
+            &__text
                 color: $grey6
 
-            &--icon
+            &__icon
                 width: 64px
                 height: 64px
 
-            &--headline
+            &__headline
                 grid-column: 1 / 5
                 color: $greyMid
 
-            &--subheadline
+            &__subheadline
                 align-self: center
                 color: $greyMid
 
-            &--title
+            &__title
                 color: $greyMid
 
             .lpButton
@@ -86,30 +86,30 @@
             @include container(64, 65, 64, 65)
             scroll-margin: 60px
 
-            &--headline
+            &__headline
                 margin-bottom: 48px
 
-            h3.lpHdl__3
+            h3.lpHdl--3
                 color: $green
                 font-size: 20px
 
-            &--container
+            &__container
                 display: grid
                 grid-template-columns: 1fr 1fr 1fr
                 grid-column-gap: 24px
                 grid-row-gap: 24px
 
-            &--unit
+            &__unit
                 border-radius: 4px
                 box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
                 cursor: pointer
                 text-decoration: none
                 transition: box-shadow 300ms ease-in-out
 
-                &--header
+                &__header
                     position: relative
 
-                &--caption
+                &__caption
                     @include container(48, 32, 40, 32)
                     @include flexVert
                     gap: 24px
@@ -117,14 +117,14 @@
                 &:hover
                     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18)
 
-            &--text
+            &__text
                 color: $grey6
 
-            &--bgr
+            &__bgr
                 border-radius: 4px 4px 0 0
                 width: 100%
 
-            &--button
+            &__button
                 background-color: $green
                 height: 64px
                 width: 64px
@@ -137,37 +137,37 @@
                 &:hover
                     background-color: $greenSport
 
-                &--icon
+                &__icon
                     height: 22px
                     width: 17px
                     transform: translate(25px, 21px)
                     fill: $white
 
-            &--stats
-                &--row
+            &__stats
+                &__row
                     @include flexOr
                     gap: 8px
 
-                    &:last-of-type .lpDesc--stats--text
+                    &:last-of-type .lpDesc__stats__text
                         padding-top: 2px
                         
-                &--icon
+                &__icon
                     height: 20px
                     width: 20px
                     flex-shrink: 0
 
-                &--text
+                &__text
                     color: $grey5
 
         &Nutrition
             @include container(64, 65, 64, 65)
             background-color: $grey0
 
-            &--headline
+            &__headline
                 margin-bottom: 32px
                 color: $grey6
 
-            &--caption
+            &__caption
                 margin-bottom: 64px
                 text-align: center
                 padding: 0 100px 
@@ -175,7 +175,7 @@
                 p:first-of-type
                     margin-bottom: 32px
 
-            &--player
+            &__player
                 background-color: $white
                 border-radius: 4px
                 box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15)
@@ -185,7 +185,7 @@
                 gap: 48px
                 margin-bottom: 48px
 
-            &--video
+            &__video
                 width: 60%
 
                 div
@@ -204,30 +204,30 @@
                     width: 100%
                     height: 100%
 
-            &--nav
+            &__nav
                 @include flexVert
                 justify-content: space-between
 
-                &--row
+                &__row
                     @include flexOr
                     gap: 32px
                     cursor: pointer
                     transition: all 300ms ease-in-out
 
-                    &:hover .lpNutrition--nav--title
+                    &:hover .lpNutrition__nav__title
                         font-weight: 700
 
                     &.active
                         color: $green
 
-                        .lpNutrition--nav
-                            &--icon
+                        .lpNutrition__nav
+                            &__icon
                                 fill: $green
 
-                            &--title
+                            &__title
                                 font-weight: 700
 
-                &--icon
+                &__icon
                     // display: none
                     fill: $white
                     width: 8px
@@ -236,7 +236,7 @@
                     flex-shrink: 0
                     transition: fill 300ms ease-in-out
 
-                &--title
+                &__title
                     width: 320px
                     transition: all 300ms ease-in-out
                 
@@ -248,7 +248,7 @@
             gap: 32px
             text-align: center
 
-            &--headline
+            &__headline
                 color: $grey6
 
         &Button 
@@ -277,34 +277,34 @@
             grid-template-columns: 1fr 1fr 1fr
             grid-template-rows: auto 64px auto 64px auto 64px auto
 
-            &--headline, &--subheadline
+            &__headline, &__subheadline
                 grid-column: 1 / 4
 
-            &--unit
+            &__unit
                 padding: 24px
 
         &Desc
-            &--unit
-                &--caption
+            &__unit
+                &__caption
                     @include container(48, 24, 40, 24)
 
-            h3.lpHdl__3
+            h3.lpHdl--3
                 @include type(18, 1.25, 500)
                 height: 40px
 
-            &--stats
-                p.lpText__S
+            &__stats
+                p.lpText--S
                     @include type(13, 1.5, 400)
                     
         &Nutrition
-            &--player
+            &__player
                 gap: 32px
 
-            &--nav
-                &--row
+            &__nav
+                &__row
                     gap: 24px
 
-                &--title
+                &__title
                     width: 290px
  
 @media only screen and (max-width: 1035px)
@@ -315,34 +315,34 @@
                 grid-template-columns: 1fr 1fr 1fr
                 grid-template-rows: auto 64px auto 64px auto 64px auto
 
-                &--headline, &--subheadline
+                &__headline, &__subheadline
                     grid-column: 1 / 4
 
-                &--unit
+                &__unit
                     padding: 24px
 
             &Desc
-                &--unit
-                    &--caption
+                &__unit
+                    &__caption
                         @include container(48, 24, 40, 24)
 
-                h3.lpHdl__3
+                h3.lpHdl--3
                     @include type(18, 1.25, 500)
                     height: 40px
 
-                &--stats
-                    p.lpText__S
+                &__stats
+                    p.lpText--S
                         @include type(13, 1.5, 400)
                         
             &Nutrition
-                &--player
+                &__player
                     gap: 32px
 
-                &--nav
-                    &--row
+                &__nav
+                    &__row
                         gap: 24px
 
-                    &--title
+                    &__title
                         width: 290px
 
 @media only screen and (max-width: 950px)
@@ -350,7 +350,7 @@
     .mobileapp #landingpage
         .lp
             &Header
-                &--caption
+                &__caption
                     width: 65%
                     padding: 30px
 
@@ -358,44 +358,44 @@
                 grid-template-columns: 1fr 1fr
                 grid-template-rows: auto auto auto auto auto auto
 
-                &--headline
+                &__headline
                     grid-column: 1 / 3
 
-                &--subheadline
+                &__subheadline
                     grid-column: 1 / 1
 
-                &--unit
+                &__unit
                     padding: 32px
 
-                    &--unit
+                    &__unit
                         background: unset
                         box-shadow: unset
 
             &Desc
-                &--container
+                &__container
                     grid-template-columns: 1fr 1fr
                     grid-template-rows: 1fr 1fr 1fr
 
-                &--unit
-                    &--caption
+                &__unit
+                    &__caption
                         @include container(40, 40, 40, 40)
 
             &Nutrition
-                &--player
+                &__player
                     flex-direction: column
 
-                &--video
+                &__video
                     width: unset
                     margin-bottom: 32px
 
-                &--nav
+                &__nav
                     align-items: stretch
                     gap: 32px
 
-                    &--title
+                    &__title
                         width: 100%
 
-                    &--time
+                    &__time
                         padding-right: 32px
 
 @media only screen and (max-width: 670px)
@@ -403,7 +403,7 @@
     .mobileapp #landingpage
         .lp
             &Header
-                &--caption
+                &__caption
                     transform: unset
                     top: 10%
                     text-align: center
@@ -416,10 +416,10 @@
                 @include flexVert
                 gap: unset
 
-                &--subheadline
+                &__subheadline
                     margin: 48px 0 32px 0
 
-                &--unit:hover
+                &__unit:hover
                     background: unset
                     box-shadow: unset
 
@@ -427,11 +427,11 @@
                     display: block
 
             &Desc
-                &--container
+                &__container
                     @include flexVert
 
             &Nutrition
-                &--caption
+                &__caption
                     padding: unset
 
 @media only screen and (max-width: 520px)
@@ -439,7 +439,7 @@
     .mobileapp #landingpage
         .lp
             &Header
-                &--caption
+                &__caption
                     top: 5%
 
             &Perex
@@ -449,17 +449,17 @@
                 @include container(48, 30, 48, 30)
 
             &Desc
-                &--unit
-                    &--caption
+                &__unit
+                    &__caption
                         @include container(40, 24, 24, 24)
                         
                               
             &Nutrition
-                &--caption
+                &__caption
                     margin-bottom: 48px
 
-                &--nav
-                    &--sequence
+                &__nav
+                    &__sequence
                         display: none
 
 @media only screen and (max-width: 440px)
@@ -467,7 +467,7 @@
     .mobileapp #landingpage
         .lp
             &Header
-                &--caption
+                &__caption
                     top: 30%
                     transform: translateY(-55%)
                     padding: 30px
@@ -477,25 +477,25 @@
     .mobileapp #landingpage
         .lp
             &Groups
-                &--unit
+                &__unit
                     padding-left: 0
                     padding-right: 0
 
             &Nutrition
-                &--player
+                &__player
                     background-color: unset
                     box-shadow: unset
                     padding: 0
 
-                &--video
+                &__video
                     margin-bottom: 16px
 
-                &--nav
+                &__nav
                     gap: 24px
 
-                    &--icon
+                    &__icon
                         fill: $grey0
 
-                    &--time
+                    &__time
                         padding: 0
                     

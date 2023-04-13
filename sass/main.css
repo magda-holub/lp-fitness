@@ -1,4 +1,4 @@
-#landingpage h1.lpHdl__1 {
+#landingpage h1.lpHdl--1 {
   font-size: 40px;
   line-height: 50px;
   font-weight: 700;
@@ -6,7 +6,7 @@
   color: #ffffff;
   margin-bottom: 48px;
 }
-#landingpage h2.lpHdl__2 {
+#landingpage h2.lpHdl--2 {
   font-size: 26px;
   line-height: 32.5px;
   font-weight: 700;
@@ -14,105 +14,105 @@
   text-align: center;
   color: #72AC45;
 }
-#landingpage h3.lpHdl__3 {
+#landingpage h3.lpHdl--3 {
   font-size: 22px;
   line-height: 27.5px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
-#landingpage h4.lpHdl__4 {
+#landingpage h4.lpHdl--4 {
   font-size: 18px;
   line-height: 22.5px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
-#landingpage p.lpText__L {
+#landingpage p.lpText--L {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   color: #ffffff;
 }
-#landingpage p.lpText__M {
+#landingpage p.lpText--M {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
-#landingpage p.lpText__S, #landingpage li.lpText__S {
+#landingpage p.lpText--S, #landingpage li.lpText--S {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
 }
 
-.layout-0 #landingpage h1.lpHdl__1 {
+.layout-0 #landingpage h1.lpHdl--1 {
   font-size: 36px;
   line-height: 45px;
   font-weight: 700;
   margin-bottom: 24px;
 }
-.layout-0 #landingpage p.lpText__L {
+.layout-0 #landingpage p.lpText--L {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
 }
 
 @media only screen and (max-width: 1035px) {
-  .mobile #landingpage h1.lpHdl__1,
-  .mobileapp #landingpage h1.lpHdl__1 {
+  .mobile #landingpage h1.lpHdl--1,
+  .mobileapp #landingpage h1.lpHdl--1 {
     font-size: 30px;
     line-height: 37.5px;
     font-weight: 700;
     margin-bottom: 24px;
   }
-  .mobile #landingpage p.lpText__L,
-  .mobileapp #landingpage p.lpText__L {
+  .mobile #landingpage p.lpText--L,
+  .mobileapp #landingpage p.lpText--L {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
   }
 }
 @media only screen and (max-width: 520px) {
-  .mobile #landingpage h2.lpHdl__2,
-  .mobileapp #landingpage h2.lpHdl__2 {
+  .mobile #landingpage h2.lpHdl--2,
+  .mobileapp #landingpage h2.lpHdl--2 {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
   }
-  .mobile #landingpage h3.lpHdl__3,
-  .mobileapp #landingpage h3.lpHdl__3 {
+  .mobile #landingpage h3.lpHdl--3,
+  .mobileapp #landingpage h3.lpHdl--3 {
     font-size: 20px;
     line-height: 25px;
     font-weight: 500;
   }
-  .mobile #landingpage h4.lpHdl__4,
-  .mobileapp #landingpage h4.lpHdl__4 {
+  .mobile #landingpage h4.lpHdl--4,
+  .mobileapp #landingpage h4.lpHdl--4 {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
   }
-  .mobile #landingpage p.lpText__M,
-  .mobileapp #landingpage p.lpText__M {
+  .mobile #landingpage p.lpText--M,
+  .mobileapp #landingpage p.lpText--M {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
   }
-  .mobile #landingpage p.lpText__S, .mobile #landingpage li.lpText__S,
-  .mobileapp #landingpage p.lpText__S,
-  .mobileapp #landingpage li.lpText__S {
+  .mobile #landingpage p.lpText--S, .mobile #landingpage li.lpText--S,
+  .mobileapp #landingpage p.lpText--S,
+  .mobileapp #landingpage li.lpText--S {
     font-size: 13px;
     line-height: 19.5px;
     font-weight: 400;
   }
 }
 @media only screen and (max-width: 350px) {
-  .mobile #landingpage h1.lpHdl__1,
-  .mobileapp #landingpage h1.lpHdl__1 {
+  .mobile #landingpage h1.lpHdl--1,
+  .mobileapp #landingpage h1.lpHdl--1 {
     font-size: 28px;
     line-height: 35px;
     font-weight: 700;
     margin-bottom: 24px;
   }
-  .mobile #landingpage p.lpText__L,
-  .mobileapp #landingpage p.lpText__L {
+  .mobile #landingpage p.lpText--L,
+  .mobileapp #landingpage p.lpText--L {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -811,13 +811,13 @@ button.swiper-pagination-bullet {
   position: relative;
   padding-bottom: 24px;
 }
-#landingpage .lpCarousel__B {
+#landingpage .lpCarousel--B {
   padding-top: 64px;
   padding-right: 0px;
   padding-bottom: 48px;
   padding-left: 0px;
 }
-#landingpage .lpCarousel h2.lpHdl__2 {
+#landingpage .lpCarousel h2.lpHdl--2 {
   margin-bottom: 32px;
   text-align: center;
   color: #72AC45;
@@ -1027,7 +1027,7 @@ button.swiper-pagination-bullet {
 #landingpage .lpHeader {
   position: relative;
 }
-#landingpage .lpHeader--caption {
+#landingpage .lpHeader__caption {
   width: 50%;
   position: absolute;
   top: 50%;
@@ -1046,12 +1046,12 @@ button.swiper-pagination-bullet {
   gap: 32px;
   text-align: center;
 }
-#landingpage .lpPerex--logo .icon {
+#landingpage .lpPerex__logo .icon {
   width: 160px;
   height: 60px;
   transition: transform 300ms ease-in-out;
 }
-#landingpage .lpPerex--logo .icon:hover {
+#landingpage .lpPerex__logo .icon:hover {
   transform: scale(1.05);
 }
 #landingpage .lpGroups {
@@ -1068,7 +1068,7 @@ button.swiper-pagination-bullet {
   grid-row-gap: 24px;
   align-items: stretch;
 }
-#landingpage .lpGroups--unit {
+#landingpage .lpGroups__unit {
   display: flex;
   flex-direction: column;
   padding: 32px;
@@ -1077,27 +1077,27 @@ button.swiper-pagination-bullet {
   transition: all 300ms ease-in-out;
   cursor: pointer;
 }
-#landingpage .lpGroups--unit:hover {
+#landingpage .lpGroups__unit:hover {
   background: #ffffff;
   border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
 }
-#landingpage .lpGroups--text {
+#landingpage .lpGroups__text {
   color: #212121;
 }
-#landingpage .lpGroups--icon {
+#landingpage .lpGroups__icon {
   width: 64px;
   height: 64px;
 }
-#landingpage .lpGroups--headline {
+#landingpage .lpGroups__headline {
   grid-column: 1/5;
   color: #656565;
 }
-#landingpage .lpGroups--subheadline {
+#landingpage .lpGroups__subheadline {
   align-self: center;
   color: #656565;
 }
-#landingpage .lpGroups--title {
+#landingpage .lpGroups__title {
   color: #656565;
 }
 #landingpage .lpGroups .lpButton {
@@ -1110,30 +1110,30 @@ button.swiper-pagination-bullet {
   padding-left: 65px;
   scroll-margin: 60px;
 }
-#landingpage .lpDesc--headline {
+#landingpage .lpDesc__headline {
   margin-bottom: 48px;
 }
-#landingpage .lpDesc h3.lpHdl__3 {
+#landingpage .lpDesc h3.lpHdl--3 {
   color: #72AC45;
   font-size: 20px;
 }
-#landingpage .lpDesc--container {
+#landingpage .lpDesc__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
 }
-#landingpage .lpDesc--unit {
+#landingpage .lpDesc__unit {
   border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   text-decoration: none;
   transition: box-shadow 300ms ease-in-out;
 }
-#landingpage .lpDesc--unit--header {
+#landingpage .lpDesc__unit__header {
   position: relative;
 }
-#landingpage .lpDesc--unit--caption {
+#landingpage .lpDesc__unit__caption {
   padding-top: 48px;
   padding-right: 32px;
   padding-bottom: 40px;
@@ -1142,17 +1142,17 @@ button.swiper-pagination-bullet {
   flex-direction: column;
   gap: 24px;
 }
-#landingpage .lpDesc--unit:hover {
+#landingpage .lpDesc__unit:hover {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
 }
-#landingpage .lpDesc--text {
+#landingpage .lpDesc__text {
   color: #212121;
 }
-#landingpage .lpDesc--bgr {
+#landingpage .lpDesc__bgr {
   border-radius: 4px 4px 0 0;
   width: 100%;
 }
-#landingpage .lpDesc--button {
+#landingpage .lpDesc__button {
   background-color: #72AC45;
   height: 64px;
   width: 64px;
@@ -1162,30 +1162,30 @@ button.swiper-pagination-bullet {
   right: 16px;
   transition: background-color 300ms ease-in-out;
 }
-#landingpage .lpDesc--button:hover {
+#landingpage .lpDesc__button:hover {
   background-color: #A1C900;
 }
-#landingpage .lpDesc--button--icon {
+#landingpage .lpDesc__button__icon {
   height: 22px;
   width: 17px;
   transform: translate(25px, 21px);
   fill: #ffffff;
 }
-#landingpage .lpDesc--stats--row {
+#landingpage .lpDesc__stats__row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 8px;
 }
-#landingpage .lpDesc--stats--row:last-of-type .lpDesc--stats--text {
+#landingpage .lpDesc__stats__row:last-of-type .lpDesc__stats__text {
   padding-top: 2px;
 }
-#landingpage .lpDesc--stats--icon {
+#landingpage .lpDesc__stats__icon {
   height: 20px;
   width: 20px;
   flex-shrink: 0;
 }
-#landingpage .lpDesc--stats--text {
+#landingpage .lpDesc__stats__text {
   color: #a4a4a4;
 }
 #landingpage .lpNutrition {
@@ -1195,19 +1195,19 @@ button.swiper-pagination-bullet {
   padding-left: 65px;
   background-color: #f8f8f8;
 }
-#landingpage .lpNutrition--headline {
+#landingpage .lpNutrition__headline {
   margin-bottom: 32px;
   color: #212121;
 }
-#landingpage .lpNutrition--caption {
+#landingpage .lpNutrition__caption {
   margin-bottom: 64px;
   text-align: center;
   padding: 0 100px;
 }
-#landingpage .lpNutrition--caption p:first-of-type {
+#landingpage .lpNutrition__caption p:first-of-type {
   margin-bottom: 32px;
 }
-#landingpage .lpNutrition--player {
+#landingpage .lpNutrition__player {
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
@@ -1222,15 +1222,15 @@ button.swiper-pagination-bullet {
   gap: 48px;
   margin-bottom: 48px;
 }
-#landingpage .lpNutrition--video {
+#landingpage .lpNutrition__video {
   width: 60%;
 }
-#landingpage .lpNutrition--video div {
+#landingpage .lpNutrition__video div {
   position: relative;
   padding-top: 56.25%;
   width: 100%;
 }
-#landingpage .lpNutrition--video iframe {
+#landingpage .lpNutrition__video iframe {
   border-radius: 4px;
   position: absolute;
   top: 0;
@@ -1241,12 +1241,12 @@ button.swiper-pagination-bullet {
   width: 100%;
   height: 100%;
 }
-#landingpage .lpNutrition--nav {
+#landingpage .lpNutrition__nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-#landingpage .lpNutrition--nav--row {
+#landingpage .lpNutrition__nav__row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -1254,19 +1254,19 @@ button.swiper-pagination-bullet {
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }
-#landingpage .lpNutrition--nav--row:hover .lpNutrition--nav--title {
+#landingpage .lpNutrition__nav__row:hover .lpNutrition__nav__title {
   font-weight: 700;
 }
-#landingpage .lpNutrition--nav--row.active {
+#landingpage .lpNutrition__nav__row.active {
   color: #72AC45;
 }
-#landingpage .lpNutrition--nav--row.active .lpNutrition--nav--icon {
+#landingpage .lpNutrition__nav__row.active .lpNutrition__nav__icon {
   fill: #72AC45;
 }
-#landingpage .lpNutrition--nav--row.active .lpNutrition--nav--title {
+#landingpage .lpNutrition__nav__row.active .lpNutrition__nav__title {
   font-weight: 700;
 }
-#landingpage .lpNutrition--nav--icon {
+#landingpage .lpNutrition__nav__icon {
   fill: #ffffff;
   width: 8px;
   height: 10px;
@@ -1274,7 +1274,7 @@ button.swiper-pagination-bullet {
   flex-shrink: 0;
   transition: fill 300ms ease-in-out;
 }
-#landingpage .lpNutrition--nav--title {
+#landingpage .lpNutrition__nav__title {
   width: 320px;
   transition: all 300ms ease-in-out;
 }
@@ -1290,7 +1290,7 @@ button.swiper-pagination-bullet {
   gap: 32px;
   text-align: center;
 }
-#landingpage .lpTaping--headline {
+#landingpage .lpTaping__headline {
   color: #212121;
 }
 #landingpage .lpButton {
@@ -1318,36 +1318,36 @@ button.swiper-pagination-bullet {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 64px auto 64px auto 64px auto;
 }
-.layout-0 #landingpage .lpGroups--headline, .layout-0 #landingpage .lpGroups--subheadline {
+.layout-0 #landingpage .lpGroups__headline, .layout-0 #landingpage .lpGroups__subheadline {
   grid-column: 1/4;
 }
-.layout-0 #landingpage .lpGroups--unit {
+.layout-0 #landingpage .lpGroups__unit {
   padding: 24px;
 }
-.layout-0 #landingpage .lpDesc--unit--caption {
+.layout-0 #landingpage .lpDesc__unit__caption {
   padding-top: 48px;
   padding-right: 24px;
   padding-bottom: 40px;
   padding-left: 24px;
 }
-.layout-0 #landingpage .lpDesc h3.lpHdl__3 {
+.layout-0 #landingpage .lpDesc h3.lpHdl--3 {
   font-size: 18px;
   line-height: 22.5px;
   font-weight: 500;
   height: 40px;
 }
-.layout-0 #landingpage .lpDesc--stats p.lpText__S {
+.layout-0 #landingpage .lpDesc__stats p.lpText--S {
   font-size: 13px;
   line-height: 19.5px;
   font-weight: 400;
 }
-.layout-0 #landingpage .lpNutrition--player {
+.layout-0 #landingpage .lpNutrition__player {
   gap: 32px;
 }
-.layout-0 #landingpage .lpNutrition--nav--row {
+.layout-0 #landingpage .lpNutrition__nav__row {
   gap: 24px;
 }
-.layout-0 #landingpage .lpNutrition--nav--title {
+.layout-0 #landingpage .lpNutrition__nav__title {
   width: 290px;
 }
 
@@ -1357,51 +1357,51 @@ button.swiper-pagination-bullet {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 64px auto 64px auto 64px auto;
   }
-  .mobile #landingpage .lpGroups--headline, .mobile #landingpage .lpGroups--subheadline,
-  .mobileapp #landingpage .lpGroups--headline,
-  .mobileapp #landingpage .lpGroups--subheadline {
+  .mobile #landingpage .lpGroups__headline, .mobile #landingpage .lpGroups__subheadline,
+  .mobileapp #landingpage .lpGroups__headline,
+  .mobileapp #landingpage .lpGroups__subheadline {
     grid-column: 1/4;
   }
-  .mobile #landingpage .lpGroups--unit,
-  .mobileapp #landingpage .lpGroups--unit {
+  .mobile #landingpage .lpGroups__unit,
+  .mobileapp #landingpage .lpGroups__unit {
     padding: 24px;
   }
-  .mobile #landingpage .lpDesc--unit--caption,
-  .mobileapp #landingpage .lpDesc--unit--caption {
+  .mobile #landingpage .lpDesc__unit__caption,
+  .mobileapp #landingpage .lpDesc__unit__caption {
     padding-top: 48px;
     padding-right: 24px;
     padding-bottom: 40px;
     padding-left: 24px;
   }
-  .mobile #landingpage .lpDesc h3.lpHdl__3,
-  .mobileapp #landingpage .lpDesc h3.lpHdl__3 {
+  .mobile #landingpage .lpDesc h3.lpHdl--3,
+  .mobileapp #landingpage .lpDesc h3.lpHdl--3 {
     font-size: 18px;
     line-height: 22.5px;
     font-weight: 500;
     height: 40px;
   }
-  .mobile #landingpage .lpDesc--stats p.lpText__S,
-  .mobileapp #landingpage .lpDesc--stats p.lpText__S {
+  .mobile #landingpage .lpDesc__stats p.lpText--S,
+  .mobileapp #landingpage .lpDesc__stats p.lpText--S {
     font-size: 13px;
     line-height: 19.5px;
     font-weight: 400;
   }
-  .mobile #landingpage .lpNutrition--player,
-  .mobileapp #landingpage .lpNutrition--player {
+  .mobile #landingpage .lpNutrition__player,
+  .mobileapp #landingpage .lpNutrition__player {
     gap: 32px;
   }
-  .mobile #landingpage .lpNutrition--nav--row,
-  .mobileapp #landingpage .lpNutrition--nav--row {
+  .mobile #landingpage .lpNutrition__nav__row,
+  .mobileapp #landingpage .lpNutrition__nav__row {
     gap: 24px;
   }
-  .mobile #landingpage .lpNutrition--nav--title,
-  .mobileapp #landingpage .lpNutrition--nav--title {
+  .mobile #landingpage .lpNutrition__nav__title,
+  .mobileapp #landingpage .lpNutrition__nav__title {
     width: 290px;
   }
 }
 @media only screen and (max-width: 950px) {
-  .mobile #landingpage .lpHeader--caption,
-  .mobileapp #landingpage .lpHeader--caption {
+  .mobile #landingpage .lpHeader__caption,
+  .mobileapp #landingpage .lpHeader__caption {
     width: 65%;
     padding: 30px;
   }
@@ -1410,61 +1410,61 @@ button.swiper-pagination-bullet {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
   }
-  .mobile #landingpage .lpGroups--headline,
-  .mobileapp #landingpage .lpGroups--headline {
+  .mobile #landingpage .lpGroups__headline,
+  .mobileapp #landingpage .lpGroups__headline {
     grid-column: 1/3;
   }
-  .mobile #landingpage .lpGroups--subheadline,
-  .mobileapp #landingpage .lpGroups--subheadline {
+  .mobile #landingpage .lpGroups__subheadline,
+  .mobileapp #landingpage .lpGroups__subheadline {
     grid-column: 1/1;
   }
-  .mobile #landingpage .lpGroups--unit,
-  .mobileapp #landingpage .lpGroups--unit {
+  .mobile #landingpage .lpGroups__unit,
+  .mobileapp #landingpage .lpGroups__unit {
     padding: 32px;
   }
-  .mobile #landingpage .lpGroups--unit--unit,
-  .mobileapp #landingpage .lpGroups--unit--unit {
+  .mobile #landingpage .lpGroups__unit__unit,
+  .mobileapp #landingpage .lpGroups__unit__unit {
     background: unset;
     box-shadow: unset;
   }
-  .mobile #landingpage .lpDesc--container,
-  .mobileapp #landingpage .lpDesc--container {
+  .mobile #landingpage .lpDesc__container,
+  .mobileapp #landingpage .lpDesc__container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-  .mobile #landingpage .lpDesc--unit--caption,
-  .mobileapp #landingpage .lpDesc--unit--caption {
+  .mobile #landingpage .lpDesc__unit__caption,
+  .mobileapp #landingpage .lpDesc__unit__caption {
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
   }
-  .mobile #landingpage .lpNutrition--player,
-  .mobileapp #landingpage .lpNutrition--player {
+  .mobile #landingpage .lpNutrition__player,
+  .mobileapp #landingpage .lpNutrition__player {
     flex-direction: column;
   }
-  .mobile #landingpage .lpNutrition--video,
-  .mobileapp #landingpage .lpNutrition--video {
+  .mobile #landingpage .lpNutrition__video,
+  .mobileapp #landingpage .lpNutrition__video {
     width: unset;
     margin-bottom: 32px;
   }
-  .mobile #landingpage .lpNutrition--nav,
-  .mobileapp #landingpage .lpNutrition--nav {
+  .mobile #landingpage .lpNutrition__nav,
+  .mobileapp #landingpage .lpNutrition__nav {
     align-items: stretch;
     gap: 32px;
   }
-  .mobile #landingpage .lpNutrition--nav--title,
-  .mobileapp #landingpage .lpNutrition--nav--title {
+  .mobile #landingpage .lpNutrition__nav__title,
+  .mobileapp #landingpage .lpNutrition__nav__title {
     width: 100%;
   }
-  .mobile #landingpage .lpNutrition--nav--time,
-  .mobileapp #landingpage .lpNutrition--nav--time {
+  .mobile #landingpage .lpNutrition__nav__time,
+  .mobileapp #landingpage .lpNutrition__nav__time {
     padding-right: 32px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .mobile #landingpage .lpHeader--caption,
-  .mobileapp #landingpage .lpHeader--caption {
+  .mobile #landingpage .lpHeader__caption,
+  .mobileapp #landingpage .lpHeader__caption {
     transform: unset;
     top: 10%;
     text-align: center;
@@ -1484,12 +1484,12 @@ button.swiper-pagination-bullet {
     flex-direction: column;
     gap: unset;
   }
-  .mobile #landingpage .lpGroups--subheadline,
-  .mobileapp #landingpage .lpGroups--subheadline {
+  .mobile #landingpage .lpGroups__subheadline,
+  .mobileapp #landingpage .lpGroups__subheadline {
     margin: 48px 0 32px 0;
   }
-  .mobile #landingpage .lpGroups--unit:hover,
-  .mobileapp #landingpage .lpGroups--unit:hover {
+  .mobile #landingpage .lpGroups__unit:hover,
+  .mobileapp #landingpage .lpGroups__unit:hover {
     background: unset;
     box-shadow: unset;
   }
@@ -1497,19 +1497,19 @@ button.swiper-pagination-bullet {
   .mobileapp #landingpage .lpGroups .lpButton {
     display: block;
   }
-  .mobile #landingpage .lpDesc--container,
-  .mobileapp #landingpage .lpDesc--container {
+  .mobile #landingpage .lpDesc__container,
+  .mobileapp #landingpage .lpDesc__container {
     display: flex;
     flex-direction: column;
   }
-  .mobile #landingpage .lpNutrition--caption,
-  .mobileapp #landingpage .lpNutrition--caption {
+  .mobile #landingpage .lpNutrition__caption,
+  .mobileapp #landingpage .lpNutrition__caption {
     padding: unset;
   }
 }
 @media only screen and (max-width: 520px) {
-  .mobile #landingpage .lpHeader--caption,
-  .mobileapp #landingpage .lpHeader--caption {
+  .mobile #landingpage .lpHeader__caption,
+  .mobileapp #landingpage .lpHeader__caption {
     top: 5%;
   }
   .mobile #landingpage .lpPerex,
@@ -1529,56 +1529,56 @@ button.swiper-pagination-bullet {
     padding-bottom: 48px;
     padding-left: 30px;
   }
-  .mobile #landingpage .lpDesc--unit--caption,
-  .mobileapp #landingpage .lpDesc--unit--caption {
+  .mobile #landingpage .lpDesc__unit__caption,
+  .mobileapp #landingpage .lpDesc__unit__caption {
     padding-top: 40px;
     padding-right: 24px;
     padding-bottom: 24px;
     padding-left: 24px;
   }
-  .mobile #landingpage .lpNutrition--caption,
-  .mobileapp #landingpage .lpNutrition--caption {
+  .mobile #landingpage .lpNutrition__caption,
+  .mobileapp #landingpage .lpNutrition__caption {
     margin-bottom: 48px;
   }
-  .mobile #landingpage .lpNutrition--nav--sequence,
-  .mobileapp #landingpage .lpNutrition--nav--sequence {
+  .mobile #landingpage .lpNutrition__nav__sequence,
+  .mobileapp #landingpage .lpNutrition__nav__sequence {
     display: none;
   }
 }
 @media only screen and (max-width: 440px) {
-  .mobile #landingpage .lpHeader--caption,
-  .mobileapp #landingpage .lpHeader--caption {
+  .mobile #landingpage .lpHeader__caption,
+  .mobileapp #landingpage .lpHeader__caption {
     top: 30%;
     transform: translateY(-55%);
     padding: 30px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .mobile #landingpage .lpGroups--unit,
-  .mobileapp #landingpage .lpGroups--unit {
+  .mobile #landingpage .lpGroups__unit,
+  .mobileapp #landingpage .lpGroups__unit {
     padding-left: 0;
     padding-right: 0;
   }
-  .mobile #landingpage .lpNutrition--player,
-  .mobileapp #landingpage .lpNutrition--player {
+  .mobile #landingpage .lpNutrition__player,
+  .mobileapp #landingpage .lpNutrition__player {
     background-color: unset;
     box-shadow: unset;
     padding: 0;
   }
-  .mobile #landingpage .lpNutrition--video,
-  .mobileapp #landingpage .lpNutrition--video {
+  .mobile #landingpage .lpNutrition__video,
+  .mobileapp #landingpage .lpNutrition__video {
     margin-bottom: 16px;
   }
-  .mobile #landingpage .lpNutrition--nav,
-  .mobileapp #landingpage .lpNutrition--nav {
+  .mobile #landingpage .lpNutrition__nav,
+  .mobileapp #landingpage .lpNutrition__nav {
     gap: 24px;
   }
-  .mobile #landingpage .lpNutrition--nav--icon,
-  .mobileapp #landingpage .lpNutrition--nav--icon {
+  .mobile #landingpage .lpNutrition__nav__icon,
+  .mobileapp #landingpage .lpNutrition__nav__icon {
     fill: #f8f8f8;
   }
-  .mobile #landingpage .lpNutrition--nav--time,
-  .mobileapp #landingpage .lpNutrition--nav--time {
+  .mobile #landingpage .lpNutrition__nav__time,
+  .mobileapp #landingpage .lpNutrition__nav__time {
     padding: 0;
   }
 }
